@@ -38,22 +38,26 @@ void n_4() {
 
 
 void n_5() {
-	int num1, num2;
+		int num1, num2;
 
-std::cout << ": ";
-std::cin >> num1;
+	std::cout << "paste first celoe chislo: ";
+	std::cin >> num1;
 
-std::cout << "paste second celoe chislo: ";
-std::cin >> num2;
+	std::cout << "paste second celoe chislo: ";
+	std::cin >> num2;
 
-double average = static_cast<double>(num1 + num2) / 2;
+	double average = static_cast<double>(num1 + num2) / 2;
 
-std::cout << "srednee arifmet : " << average << std::endl;
+	std::cout << "srednee arifmet : " << average << std::endl;
 
 
 }
 
 void n_6(){
+	const int MAX_SCORE = 1000;
+	std::cout << "MAX OCENKA: " << MAX_SCORE << std::endl;
+	//MAX_SCORE = 3000;
+	std::cout << "POPITKA IZMENENIA MAX_SCORE na 3000." << std::endl;
 
 }
 
@@ -72,6 +76,6 @@ int main() {
 	n_3();
 	n_4();
 	n_5();
-
+	n_6();
 return 0;
 }
